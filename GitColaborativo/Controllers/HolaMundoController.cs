@@ -1,4 +1,6 @@
-﻿namespace GitColaborativo.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace GitColaborativo.Controllers
 {
     [Route( "api/[controller]" )]
     [ApiController]
