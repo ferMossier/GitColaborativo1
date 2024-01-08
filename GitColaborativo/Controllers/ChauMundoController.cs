@@ -9,7 +9,7 @@ namespace GitColaborativo.Controllers
         [HttpGet]
         public async Task<IActionResult> GetChauMundo( string name )
         {
-            return Ok( new { data = $"Chau Mundo, soy {name} y me tengo que ir" } );
+            return Ok( new { data = $"Chau Mundo, soy {name} y me tengo que ir." } );
         }
 
     }
